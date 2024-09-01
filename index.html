@@ -2,23 +2,60 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
-		<!-- TODO: Change the default Vite Icon -->
+		<link
+			rel="icon"
+			type="image/svg+xml"
+			href="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://www.pinterest.com"
+		/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Vite App</title>
 		<link rel="stylesheet" href="styles/styles.css" />
 	</head>
 	<body>
-		<div class="board"></div>
-
-		<div>
+		<header class="header">
 			<img
+				class="logo"
 				src="https://pngimg.com/uploads/pinterest/pinterest_PNG45.png"
-				alt="logo"
+				width="20px"
+				alt="Logo de Pinterest"
 			/>
+			<nav class="nav">
+				<ul class="nav__menu">
+					<li class="nav__item">
+						<a class="nav__link" href=""> Inicio </a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href=""> Explorar </a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href=""> Crear </a>
+					</li>
+				</ul>
+			</nav>
 
-			<!--IMÁGENES -->
+			<div class="search-bar">
+				<img class="search-bar__icon" src="" alt="" />
+				<!-- Icono de busqueda -->
+				<input class="search-bar__input" type="text" placeholder="Buscar" />
+			</div>
 
+			<div class="account-bar">
+				<img class="account-bar__notifications" src="" alt="" />
+				<img class="account-bar__mssgs" src="" alt="" />
+				<img class="account-bar__avatar" src="" alt="" />
+				<button class="account-bar__more-options-btn"></button>
+			</div>
+		</header>
+
+		<div class="gallery">
+			<!-- Galeria de imagenes -->
+
+			<article class="gallery__item">
+				<img class="gallery__image" src="" alt="" />
+			</article>
+		</div>
+
+		<div style="display: none">
 			<img
 				class="bg-image"
 				src="https://plus.unsplash.com/premium_photo-1670264592766-0ae99e33aacd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8UzRNS0xBc0JCNzR8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
