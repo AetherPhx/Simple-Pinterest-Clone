@@ -8,7 +8,7 @@
 			href="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://www.pinterest.com"
 		/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Vite App</title>
+		<title>Pinterest Clone</title>
 		<link rel="stylesheet" href="styles/styles.css" />
 	</head>
 	<body>
@@ -34,16 +34,23 @@
 			</nav>
 
 			<div class="search-bar">
-				<img class="search-bar__icon" src="" alt="" />
-				<!-- Icono de busqueda -->
+				<i class="search-bar__icon fa-solid fa-magnifying-glass"></i>
 				<input class="search-bar__input" type="text" placeholder="Buscar" />
 			</div>
 
 			<div class="account-bar">
-				<img class="account-bar__notifications" src="" alt="" />
-				<img class="account-bar__mssgs" src="" alt="" />
-				<img class="account-bar__avatar" src="" alt="" />
-				<button class="account-bar__more-options-btn"></button>
+				<div class="account-bar_notifications">
+					<i class="fa-solid fa-bell"></i>
+				</div>
+				<div class="account-bar__mssgs">
+					<i class="fa-solid fa-comment-dots"></i>
+				</div>
+				<div class="account-bar__avatar">
+					<img src="" alt="your avatar" />
+				</div>
+				<div class="account-bar__more">
+					<i class="fa-solid fa-chevron-down"></i>
+				</div>
 			</div>
 		</header>
 
@@ -165,6 +172,10 @@
 			/>
 		</div>
 
+		<script
+			src="https://kit.fontawesome.com/9363e6ce5f.js"
+			crossorigin="anonymous"
+		></script>
 		<script src="scripts/main.js"></script>
 	</body>
 </html>
