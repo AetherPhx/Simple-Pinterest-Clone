@@ -9,207 +9,253 @@
 		/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Pinterest Clone</title>
-		<link rel="stylesheet" href="styles/styles.css" />
+		<link rel="stylesheet" href="styles/css/styles.css" />
 	</head>
 	<body>
-		<header class="header">
-			<img
-				class="logo"
-				src="https://pngimg.com/uploads/pinterest/pinterest_PNG45.png"
-				width="20px"
-				alt="Logo de Pinterest"
-			/>
-			<nav class="nav">
-				<ul class="nav__menu">
-					<li class="nav__item">
-						<a class="nav__link" href=""> Inicio </a>
-					</li>
-					<li class="nav__item">
-						<a class="nav__link" href=""> Explorar </a>
-					</li>
-					<li class="nav__item">
-						<a class="nav__link" href=""> Crear </a>
-					</li>
-				</ul>
-			</nav>
+		<div class="layout">
+			<header class="header">
+				<img
+					class="logo"
+					src="https://pngimg.com/uploads/pinterest/pinterest_PNG45.png"
+					width="20px"
+					alt="Logo de Pinterest"
+				/>
+				<nav class="nav">
+					<ul class="nav__menu">
+						<li class="nav__item">
+							<a class="nav__link" href=""> Inicio </a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href=""> Explorar </a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href=""> Crear </a>
+						</li>
+					</ul>
+				</nav>
 
-			<div class="search-bar">
-				<i class="search-bar__icon fa-solid fa-magnifying-glass"></i>
-				<input class="search-bar__input" type="text" placeholder="Buscar" />
+				<div class="search-bar">
+					<i class="search-bar__icon fa-solid fa-magnifying-glass"></i>
+					<input class="search-bar__input" type="text" placeholder="Buscar" />
+				</div>
+
+				<div class="account-bar">
+					<div class="account-bar_notifications">
+						<i class="fa-solid fa-bell"></i>
+					</div>
+					<div class="account-bar__mssgs">
+						<i class="fa-solid fa-comment-dots"></i>
+					</div>
+					<div class="account-bar__avatar">
+						<img src="" alt="your avatar" />
+					</div>
+					<div class="account-bar__more">
+						<i class="fa-solid fa-chevron-down"></i>
+					</div>
+				</div>
+			</header>
+
+			<div class="gallery">
+				<!-- Galeria de imagenes -->
+
+				<article class="gallery__item">
+					<img
+						class="gallery__image"
+						src="https://plus.unsplash.com/premium_photo-1670264592766-0ae99e33aacd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8UzRNS0xBc0JCNzR8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+						alt=""
+					/>
+					<div class="gallery__overlay">
+						<button class="gallery__overlay-button">Guardar</button>
+					</div>
+				</article>
+
+				<article class="gallery__item">
+					<img
+						class="gallery__image"
+						src="https://images.unsplash.com/photo-1667655866927-c334f8db27ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8UzRNS0xBc0JCNzR8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+						alt=""
+					/>
+					<div class="gallery__overlay">
+						<button class="gallery__overlay-button">Guardar</button>
+					</div>
+				</article>
+
+				<article class="gallery__item">
+					<img
+						class="gallery__image"
+						src="https://images.unsplash.com/photo-1670718089430-d75ba6c1a194?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwfFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+						alt=""
+					/>
+					<div class="gallery__overlay">
+						<button class="gallery__overlay-button">Guardar</button>
+					</div>
+				</article>
+
+				<article class="gallery__item">
+					<img
+						class="gallery__image"
+						src="https://images.unsplash.com/photo-1652087069456-06fb70235fa2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDl8UzRNS0xBc0JCNzR8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+						alt=""
+					/>
+					<div class="gallery__overlay">
+						<button class="gallery__overlay-button">Guardar</button>
+					</div>
+				</article>
+
+				<article class="gallery__item">
+					<img
+						class="gallery__image"
+						src="https://images.unsplash.com/photo-1670513756456-6d51163ff25c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+						alt=""
+					/>
+					<div class="gallery__overlay">
+						<button class="gallery__overlay-button">Guardar</button>
+					</div>
+				</article>
+
+				<article class="gallery__item">
+					<img
+						class="gallery__image"
+						src="https://images.unsplash.com/photo-1670718221502-42bee4ee96c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDExfFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+						alt=""
+					/>
+					<div class="gallery__overlay">
+						<button class="gallery__overlay-button">Guardar</button>
+					</div>
+				</article>
+
+				<article class="gallery__item">
+					<img
+						class="gallery__image"
+						src="https://images.unsplash.com/photo-1670948516733-0220701ea0de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE2fFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+						alt=""
+					/>
+					<div class="gallery__overlay">
+						<button class="gallery__overlay-button">Guardar</button>
+					</div>
+				</article>
+
+				<article class="gallery__item">
+					<img
+						class="gallery__image"
+						src="https://plus.unsplash.com/premium_photo-1670787505396-31741dac157c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE1fFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+						alt=""
+					/>
+					<div class="gallery__overlay">
+						<button class="gallery__overlay-button">Guardar</button>
+					</div>
+				</article>
+
+				<article class="gallery__item">
+					<img
+						class="gallery__image"
+						src="https://images.unsplash.com/photo-1670531910262-5ddb5ad666ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE5fFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+						alt=""
+					/>
+					<div class="gallery__overlay">
+						<button class="gallery__overlay-button">Guardar</button>
+					</div>
+				</article>
+
+				<article class="gallery__item">
+					<img
+						class="gallery__image"
+						src="https://images.unsplash.com/photo-1670896329450-066bc7c029f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE3fFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+						alt=""
+					/>
+					<div class="gallery__overlay">
+						<button class="gallery__overlay-button">Guardar</button>
+					</div>
+				</article>
+
+				<article class="gallery__item">
+					<img
+						class="gallery__image"
+						src="https://images.unsplash.com/photo-1670116425207-7ff3a28c6a08?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDI5fFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+						alt=""
+					/>
+					<div class="gallery__overlay">
+						<button class="gallery__overlay-button">Guardar</button>
+					</div>
+				</article>
+
+				<article class="gallery__item">
+					<img
+						class="gallery__image"
+						src="https://images.unsplash.com/photo-1668789466501-f9c8b4ca7e42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQwfFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+						alt=""
+					/>
+					<div class="gallery__overlay">
+						<button class="gallery__overlay-button">Guardar</button>
+					</div>
+				</article>
+
+				<article class="gallery__item">
+					<img
+						class="gallery__image"
+						src="https://images.unsplash.com/photo-1669627960590-5aa33748cddf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM4fFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+						alt=""
+					/>
+					<div class="gallery__overlay">
+						<button class="gallery__overlay-button">Guardar</button>
+					</div>
+				</article>
+
+				<article class="gallery__item">
+					<img
+						class="gallery__image"
+						src="https://images.unsplash.com/photo-1669462277329-f32f928a4a79?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQ2fFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+						alt=""
+					/>
+					<div class="gallery__overlay">
+						<button class="gallery__overlay-button">Guardar</button>
+					</div>
+				</article>
+
+				<article class="gallery__item">
+					<img
+						class="gallery__image"
+						src="https://images.unsplash.com/photo-1669720229052-89cda125fc3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQ3fFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+						alt=""
+					/>
+					<div class="gallery__overlay">
+						<button class="gallery__overlay-button">Guardar</button>
+					</div>
+				</article>
+
+				<article class="gallery__item">
+					<img
+						class="gallery__image"
+						src="https://images.unsplash.com/photo-1646004882668-2e3936d59866?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDY3fFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+						alt=""
+					/>
+					<div class="gallery__overlay">
+						<button class="gallery__overlay-button">Guardar</button>
+					</div>
+				</article>
+
+				<article class="gallery__item">
+					<img
+						class="gallery__image"
+						src="https://images.unsplash.com/photo-1661786638637-163e874150f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDcxfFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+						alt=""
+					/>
+					<div class="gallery__overlay">
+						<button class="gallery__overlay-button">Guardar</button>
+					</div>
+				</article>
+
+				<article class="gallery__item">
+					<img
+						class="gallery__image"
+						src="https://images.unsplash.com/photo-1669072256973-481dce2c7599?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDc0fFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+						alt=""
+					/>
+					<div class="gallery__overlay">
+						<button class="gallery__overlay-button">Guardar</button>
+					</div>
+				</article>
 			</div>
-
-			<div class="account-bar">
-				<div class="account-bar_notifications">
-					<i class="fa-solid fa-bell"></i>
-				</div>
-				<div class="account-bar__mssgs">
-					<i class="fa-solid fa-comment-dots"></i>
-				</div>
-				<div class="account-bar__avatar">
-					<img src="" alt="your avatar" />
-				</div>
-				<div class="account-bar__more">
-					<i class="fa-solid fa-chevron-down"></i>
-				</div>
-			</div>
-		</header>
-
-		<div class="gallery">
-			<!-- Galeria de imagenes -->
-
-			<article class="gallery__item">
-				<img
-					class="gallery__image"
-					src="https://plus.unsplash.com/premium_photo-1670264592766-0ae99e33aacd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8UzRNS0xBc0JCNzR8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
-					alt=""
-				/>
-				<div class="gallery__overlay">
-					<button class="gallery__overlay-button">Guardar</button>
-				</div>
-			</article>
-
-			<article class="gallery__item">
-				<img
-					src="https://images.unsplash.com/photo-1667655866927-c334f8db27ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8UzRNS0xBc0JCNzR8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
-					alt=""
-					class="gallery__image"
-				/>
-				<div class="gallery__overlay">
-					<button class="gallery__overlay-button">Guardar</button>
-				</div>
-			</article>
-
-			<article class="gallery__item">
-				<img
-					src="https://images.unsplash.com/photo-1670718089430-d75ba6c1a194?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwfFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-					alt=""
-					class="gallery__image"
-				/>
-				<div class="gallery__overlay">
-					<button class="gallery__overlay-button">Guardar</button>
-				</div>
-			</article>
-
-			<article class="gallery__item">
-				<img
-					src="https://images.unsplash.com/photo-1652087069456-06fb70235fa2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDl8UzRNS0xBc0JCNzR8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
-					alt=""
-					class="gallery__image"
-				/>
-				<div class="gallery__overlay">
-					<button class="gallery__overlay-button">Guardar</button>
-				</div>
-			</article>
-		</div>
-
-		<div style="display: none">
-			<img
-				class="bg-image"
-				src="https://plus.unsplash.com/premium_photo-1670264592766-0ae99e33aacd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8UzRNS0xBc0JCNzR8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
-				alt=""
-			/>
-
-			<img
-				class="bg-image"
-				src="https://images.unsplash.com/photo-1667655866927-c334f8db27ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8UzRNS0xBc0JCNzR8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
-				alt=""
-			/>
-
-			<img
-				class="bg-image"
-				src="https://images.unsplash.com/photo-1670718089430-d75ba6c1a194?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwfFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-				alt=""
-			/>
-
-			<img
-				class="bg-image"
-				src="https://images.unsplash.com/photo-1652087069456-06fb70235fa2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDl8UzRNS0xBc0JCNzR8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
-				alt=""
-			/>
-
-			<img
-				class="bg-image"
-				src="https://images.unsplash.com/photo-1670513756456-6d51163ff25c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-				alt=""
-			/>
-
-			<img
-				class="bg-image"
-				src="https://images.unsplash.com/photo-1670718221502-42bee4ee96c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDExfFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-				alt=""
-			/>
-
-			<img
-				class="bg-image"
-				src="https://images.unsplash.com/photo-1670948516733-0220701ea0de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE2fFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-				alt=""
-			/>
-
-			<img
-				class="bg-image"
-				src="https://plus.unsplash.com/premium_photo-1670787505396-31741dac157c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE1fFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-				alt=""
-			/>
-
-			<img
-				class="bg-image"
-				src="https://images.unsplash.com/photo-1670531910262-5ddb5ad666ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE5fFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-				alt=""
-			/>
-
-			<img
-				class="bg-image"
-				src="https://images.unsplash.com/photo-1670896329450-066bc7c029f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE3fFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-				alt=""
-			/>
-
-			<img
-				class="bg-image"
-				src="https://images.unsplash.com/photo-1670116425207-7ff3a28c6a08?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDI5fFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-				alt=""
-			/>
-
-			<img
-				class="bg-image"
-				src="https://images.unsplash.com/photo-1668789466501-f9c8b4ca7e42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQwfFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-				alt=""
-			/>
-
-			<img
-				class="bg-image"
-				src="https://images.unsplash.com/photo-1669627960590-5aa33748cddf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM4fFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-				alt=""
-			/>
-
-			<img
-				class="bg-image"
-				src="https://images.unsplash.com/photo-1669462277329-f32f928a4a79?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQ2fFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-				alt=""
-			/>
-
-			<img
-				class="bg-image"
-				src="https://images.unsplash.com/photo-1669720229052-89cda125fc3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQ3fFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-				alt=""
-			/>
-
-			<img
-				class="bg-image"
-				src="https://images.unsplash.com/photo-1646004882668-2e3936d59866?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDY3fFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-				alt=""
-			/>
-
-			<img
-				class="bg-image"
-				src="https://images.unsplash.com/photo-1661786638637-163e874150f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDcxfFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-				alt=""
-			/>
-
-			<img
-				class="bg-image"
-				src="https://images.unsplash.com/photo-1669072256973-481dce2c7599?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDc0fFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-				alt=""
-			/>
 		</div>
 
 		<script
