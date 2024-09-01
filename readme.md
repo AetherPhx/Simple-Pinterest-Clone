@@ -73,4 +73,4 @@ Esta app web debe contar con una **interfaz simple** y la **implementación de l
 
 ## Estado del Proyecto
 
-Actualmente el proyecto se encuentra en la fase #3.
+Actualmente el proyecto se encuentra en la fase #4.
