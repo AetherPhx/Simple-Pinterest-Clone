@@ -1,0 +1,9 @@
+@use "../theme/" as theme;
+.layout {
+	max-width: 1200px;
+	padding: theme.$space-md;
+	margin-inline: auto;
+
+	display: grid;
+	gap: theme.$space-xl;
+}

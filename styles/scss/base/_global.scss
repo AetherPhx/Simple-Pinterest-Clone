@@ -1,0 +1,17 @@
+@use "../theme/" as theme;
+
+body {
+	background-color: theme.$color-bg;
+
+	font-family: theme.$fm;
+	line-height: 1.5;
+	font-size: theme.$fs-medium;
+	font-weight: theme.$fw-normal;
+	color: theme.$color-text;
+}
+
+p {
+	margin: theme.$space-xxs 0;
+
+	text-wrap: pretty;
+}

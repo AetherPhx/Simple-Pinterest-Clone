@@ -1,0 +1,27 @@
+html {
+	font-size: 100%;
+	scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	min-height: 100vh;
+	min-height: 100dvh;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a,
+a:visited,
+a:active {
+	text-decoration: none;
+}
