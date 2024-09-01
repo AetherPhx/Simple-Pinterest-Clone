@@ -39,9 +39,19 @@ Esta app web debe contar con una **interfaz simple** y la **implementación de l
 
 ### Fase 3: Maquetación de la interfaz clon de Pinterest
 
-- Diseñar la interfaz de usuario utilizando HTML y CSS para replicar el aspecto de la página principal de Pinterest.
-- Asegurarse de que la maquetación sea adaptable y responsiva.
-- Implementar placeholders donde las imágenes de Unsplash se mostrarán.
+#### Estructura (HTML)
+
+- Conseguir e implementar el favicon de pinterest y los íconos de las opciones.
+- Estructurar el header de la página dividido entre la barra de navegación, la barra de búsqueda y las opciones de cuenta.
+- Preparar la galería de imágenes y las imagenes por defecto.
+- Establecer un `overlay on hover` para cada imagen, este oscurecerá la imagen y mostrará una opción para guardar la imagen.
+
+#### Estilos (CSS)
+
+- Ordenar la galería de imágenes al estilo Pinterest.
+- Crear las clases para ocultar y mostrar el `overlay on hover` cuando sea necesario y tenga la apariencia deseada.
+- Ordenar el header para que esté bien alineado y en fila.
+- Agregar estilos de hover.
 
 ### Fase 4: Integración de lógica y maquetación
 
