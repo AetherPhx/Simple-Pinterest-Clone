@@ -1,0 +1,29 @@
+@use "../theme/" as theme;
+
+.search-bar {
+	background-color: theme.$color-gray-light;
+	width: 100%;
+	max-width: 616px;
+	padding: theme.$space-xs theme.$space-sm;
+	border-radius: theme.$space-xs;
+
+	&:hover {
+		background-color: theme.$color-gray-hover;
+	}
+
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	gap: theme.$space-xxs;
+
+	&__icon {
+		font-size: theme.$fs-big;
+		color: theme.$color-icons;
+	}
+
+	&__input {
+		background-color: transparent;
+		border: none;
+		outline: none;
+	}
+}

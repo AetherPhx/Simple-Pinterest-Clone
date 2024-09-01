@@ -14,15 +14,15 @@
 	<body>
 		<div class="layout">
 			<header class="header">
-				<img
-					class="logo"
-					src="https://pngimg.com/uploads/pinterest/pinterest_PNG45.png"
-					width="20px"
-					alt="Logo de Pinterest"
-				/>
 				<nav class="nav">
+					<img
+						class="nav__logo"
+						src="https://pngimg.com/uploads/pinterest/pinterest_PNG45.png"
+						alt="Logo de Pinterest"
+					/>
+
 					<ul class="nav__menu">
-						<li class="nav__item">
+						<li class="nav__item nav__item--active">
 							<a class="nav__link" href=""> Inicio </a>
 						</li>
 						<li class="nav__item">
@@ -40,17 +40,21 @@
 				</div>
 
 				<div class="account-bar">
-					<div class="account-bar_notifications">
-						<i class="fa-solid fa-bell"></i>
+					<div class="account-bar__notifications">
+						<i class="account-bar__icon fa-solid fa-bell"></i>
 					</div>
 					<div class="account-bar__mssgs">
-						<i class="fa-solid fa-comment-dots"></i>
+						<i class="account-bar__icon fa-solid fa-comment-dots"></i>
 					</div>
 					<div class="account-bar__avatar">
-						<img src="" alt="your avatar" />
+						<img
+							class="account-bar__image"
+							src="https://github.com/AetherPhx.png"
+							alt="your avatar"
+						/>
 					</div>
 					<div class="account-bar__more">
-						<i class="fa-solid fa-chevron-down"></i>
+						<i class="account-bar__icon fa-solid fa-chevron-down"></i>
 					</div>
 				</div>
 			</header>

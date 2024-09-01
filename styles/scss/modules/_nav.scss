@@ -1,0 +1,36 @@
+@use "../theme/" as theme;
+
+.nav {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	gap: theme.$space-sm;
+
+	&__logo {
+		height: theme.$space-lg;
+	}
+
+	&__menu {
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+		gap: theme.$space-xs;
+	}
+
+	&__item {
+		padding: theme.$space-xxs theme.$space-xs;
+		border-radius: theme.$space-md;
+
+		&--active {
+			background-color: theme.$color-text;
+			& a {
+				color: theme.$color-bg;
+			}
+		}
+	}
+
+	&__link {
+		color: theme.$color-text;
+		font-weight: theme.$fw-bold;
+	}
+}
