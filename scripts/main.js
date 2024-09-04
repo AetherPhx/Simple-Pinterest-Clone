@@ -73,7 +73,9 @@ const printNewImages = (imagesList) => {
 	});
 };
 
-(startApp = () => {
+const startApp = () => {
 	console.log("Starting App...");
 	prepareSearch();
-})();
+};
+
+startApp();
